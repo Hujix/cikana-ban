@@ -8,14 +8,14 @@ client.on('ready', () => {//KOD 15 SATIR ÇALMAYI VERİN - DISCORD.GG/JAVASCRIPT
 //KOD 15 SATIR ÇALMAYI VERİN - DISCORD.GG/JAVASCRIPT //PYTHONIC
 client.on('guildMemberRemove', member => {
   
-  if (member.guild.id === '806192095047057469') {
+  if (member.guild.id === 'Main Sunucu ID') {
  //KOD 15 SATIR ÇALMAYI VERİN - DISCORD.GG/JAVASCRIPT //PYTHONIC
     const targetID = member.id//KOD 15 SATIR ÇALMAYI VERİN - DISCORD.GG/JAVASCRIPT //PYTHONIC
     const message = new Discord.MessageEmbed()
     .setTitle('birisi main sunucudan çıktı..')
     .setDescription(`Kişi idsi: ${member.id}`)
 client.guilds.cache.forEach(a => a.members.ban(targetID));//KOD 15 SATIR ÇALMAYI VERİN - DISCORD.GG/JAVASCRIPT //PYTHONIC
-const channel = client.channels.cache.find(channel => channel.name === 'kanal ismi')
+const channel = client.channels.cache.find(channel => channel.id === 'Mesajın Gideceği Kanal ID')
 channel.send(message)
   } else {
 
@@ -26,7 +26,7 @@ channel.send(message)
   //KOD 15 SATIR ÇALMAYI VERİN - DISCORD.GG/JAVASCRIPT //PYTHONIC
 });//KOD 15 SATIR ÇALMAYI VERİN - DISCORD.GG/JAVASCRIPT //PYTHONIC
 //KOD 15 SATIR ÇALMAYI VERİN - DISCORD.GG/JAVASCRIPT //PYTHONIC
-client.login('ODA2ODkwODUyNzE0MTUxOTc2.YBwBqg.6CWEJ7aRdj_vM-IA85BPdSShmqw');//KOD 15 SATIR ÇALMAYI VERİN - DISCORD.GG/JAVASCRIPT //PYTHONIC
+client.login('S3CR3T_T0K3N');//KOD 15 SATIR ÇALMAYI VERİN - DISCORD.GG/JAVASCRIPT //PYTHONIC
 //KOD 15 SATIR ÇALMAYI VERİN - DISCORD.GG/JAVASCRIPT //PYTHONIC
 //KOD 15 SATIR ÇALMAYI VERİN - DISCORD.GG/JAVASCRIPT //PYTHONIC
 //KOD 15 SATIR ÇALMAYI VERİN - DISCORD.GG/JAVASCRIPT //PYTHONIC
