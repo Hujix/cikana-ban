@@ -1,0 +1,20 @@
+{
+  "name": "cikanaban",
+  "version": "0.0.1",
+  "description": "Sunucunuzdan çıkan insanları yan sunuculardan banlar.",
+  "main": "pythonic.js",
+  "scripts": {
+    "start": "node pythonic.js"
+  },
+  "dependencies": {
+  "discord.js": "^12.5.1"
+
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
